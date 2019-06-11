@@ -1,7 +1,7 @@
 let request = {
     "grant_type": "authorization_code",
     "client_id": "313363a4fee6f7509ab386fd0dc31c6d",
-    "client_secret": "313363a4fee6f7509ab386fd0dc31c6d",
+    "client_secret": "itm6JgXRZE0ZVmg2ZumfnDK0PtmoFmvKHcyR8xV8",
     "code": "",
     "redirect_uri": "https://partners.carthooklocal.com/callback"
 }
