@@ -3,7 +3,7 @@ let request = {
     "client_id": "313363a4fee6f7509ab386fd0dc31c6d",
     "client_secret": "itm6JgXRZE0ZVmg2ZumfnDK0PtmoFmvKHcyR8xV8",
     "code": "",
-    "redirect_uri": "https://nigelorion.github.io/logged-in/"
+    "redirect_uri": "https://nigelorion.github.io/logged-in/callback"
 }
 
 function testFire() {
