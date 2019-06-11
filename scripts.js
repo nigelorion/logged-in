@@ -1,7 +1,7 @@
 let request = {
     "grant_type": "authorization_code",
-    "client_id": "5c27cff5ca9e72ccf9aa24550a469553",
-    "client_secret": "8dndkDrDNqEWyCR2oEWnSdVXAbYBz1K9FTjG3vEi",
+    "client_id": "d7f145b5608a0598736b6887b3bdd3a6",
+    "client_secret": "O0Nh8SJgaZhG1w5ccygAR9lDAhMaoMspWeGkvPn5",
     "code": "",
     "redirect_uri": "https://nigelorion.github.io/logged-in/"
 }
