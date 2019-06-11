@@ -31,7 +31,7 @@ function requestToken() {
                 "type": "text",
                 "disabled": true
             },
-        body: request
+        body: JSON.stringify(request)
     })
     .then(resj => {
         console.log(resj)})
