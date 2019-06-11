@@ -3,7 +3,9 @@ function testFire() {
     var vars = query.split("&");
     for (var i=0;i<vars.length;i++) {
             var pair = vars[i].split("=");
-            if(pair[0] == 'code'){return pair[1];}
+            if(pair[0] == 'code'){
+                console.log(pair[1]);
+            }
     }
     return(false)
 }
