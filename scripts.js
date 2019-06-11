@@ -24,11 +24,12 @@ function testFire() {
 function requestToken() {
     return fetch("https://api.partners.dev.carthook.com/oauth/token", {
         method: 'post',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-            },
-        body: JSON.stringify(request)
+        headers: request
+        // headers: {
+        //     'Accept': 'application/json',
+        //     'Content-Type': 'application/json'
+        //     },
+        // body: JSON.stringify(request)
     })
     .then(resj => {
         console.log(resj)})
