@@ -5,7 +5,34 @@ function testFire() {
             var pair = vars[i].split("=");
             if(pair[0] == 'code'){
                 console.log(pair[1]);
+                requestToken(pair[1]);
+
             }
     }
     return(false)
+}
+
+let request = {
+    "grant_type": "authorization_code",
+    "client_id": "313363a4fee6f7509ab386fd0dc31c6d",
+    "client_secret": "313363a4fee6f7509ab386fd0dc31c6d",
+    "code": "",
+    "redirect_uri": "https://partners.carthooklocal.com/callback"
+}
+
+function requestToken(code) {
+    request.code = code.
+    fetch("https://api.partners.dev.carthook.com/oauth/token", {
+        method: 'post',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+            },
+        body: JSON.stringify(request)
+    })
+    .then(resj => {
+        console.log(resj)})
+        .catch(err => {
+        console.log(err)})
+
 }
