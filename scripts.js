@@ -1,7 +1,7 @@
 let request = {
     "grant_type": "authorization_code",
-    "client_id": "313363a4fee6f7509ab386fd0dc31c6d",
-    "client_secret": "itm6JgXRZE0ZVmg2ZumfnDK0PtmoFmvKHcyR8xV8",
+    "client_id": "5c27cff5ca9e72ccf9aa24550a469553",
+    "client_secret": "8dndkDrDNqEWyCR2oEWnSdVXAbYBz1K9FTjG3vEi",
     "code": "",
     "redirect_uri": "https://nigelorion.github.io/logged-in/callback"
 }
@@ -36,3 +36,5 @@ function requestToken() {
         console.log(err)})
 
 }
+
+let test = "testing"
