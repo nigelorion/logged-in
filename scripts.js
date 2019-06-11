@@ -30,11 +30,10 @@ function requestToken() {
             },
         body: JSON.stringify(request)
     })
+    .then(res => res.json())
     .then(resj => {
         console.log(resj)})
         .catch(err => {
         console.log(err)})
-
 }
 
-let test = "testing"
