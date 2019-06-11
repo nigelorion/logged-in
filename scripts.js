@@ -21,8 +21,8 @@ let request = {
 }
 
 function requestToken(code) {
-    request.code = code.
-    fetch("https://api.partners.dev.carthook.com/oauth/token", {
+    request.code = code;
+    return fetch("https://api.partners.dev.carthook.com/oauth/token", {
         method: 'post',
         headers: {
             'Accept': 'application/json',
