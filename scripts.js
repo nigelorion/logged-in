@@ -24,6 +24,7 @@ function testFire() {
 function requestToken() {
     return fetch("https://api.partners.dev.carthook.com/oauth/token", {
         method: 'post',
+        dataType: 'json',
         headers: {
                 "Content-Type": "application/json"
             },
