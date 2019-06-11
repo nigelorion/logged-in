@@ -25,11 +25,7 @@ function requestToken() {
     return fetch("https://api.partners.dev.carthook.com/oauth/token", {
         method: 'post',
         headers: {
-                "key": "Content-Type",
-                "name": "Content-Type",
-                "value": "application/json",
-                "type": "text",
-                "disabled": true
+                "Content-Type": "application/json"
             },
         body: JSON.stringify(request)
     })
