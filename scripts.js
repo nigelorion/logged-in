@@ -16,8 +16,8 @@ function testFire() {
             if(pair[0] == 'code'){
                 console.log(pair[1]);
                 request.code = pair[1];
+                console.log("pulled code token, firing request for auth token...")
                 requestToken();
-
             }
     }
     return(false)
@@ -34,7 +34,9 @@ function requestToken() {
     })
     .then(res => res.json())
     .then(resj => {
-        console.log(resj)})
+        console.log(resj)
+        accessToken = resj.access_token
+    })
         .catch(err => {
         console.log(err)})
 }
