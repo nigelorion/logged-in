@@ -1,7 +1,7 @@
 let request = {
     "grant_type": "authorization_code",
-    "client_id": "d7f145b5608a0598736b6887b3bdd3a6",
-    "client_secret": "O0Nh8SJgaZhG1w5ccygAR9lDAhMaoMspWeGkvPn5",
+    "client_id": "fc4357065dd7ed5bac8120a4200fa239",
+    "client_secret": "lVomOTZp4diJ5a3R40L2L2sT4VurkI5dHdso5w0t",
     "code": "",
     "redirect_uri": "https://nigelorion.github.io/logged-in/"
 }
@@ -64,3 +64,47 @@ function requestToken() {
 // refresh_token: "def50200e83611a651e5b69d1e30005545f4267b3d8ec44ad96096b14d1c72bfc43ebbc968ad56a76d38d4f1874d0f753fb9305b65e998bdc23d1adbac57101e0e8fc7285395537a6fe90a6e93dc105c879a9d1b9d65d19ae07afae667c565b03b090ec701dcd312ae816bd9714310d4f8a2372746b7fee9db5539bc00f7a775fdd9abd767c43b19dc5a487ce79bfaafa8dce5282d1b543b8bda8e7d304860bdc7f104b196f9e4c8abcdf7d9ed29819db5ce56b7bcd415165c09ec22c947e843f44545c9963916d3f9ddaf41d4f6d80965ef1726583f764d7ee6f1b283f6679b2c55c63c7331e3fd58f07774f2931717e9ad9011abe9caa7896b26552924e34d76774456d8097d71d37dcf69c092ceef3fc64ed4b9ec5495557eed70f8a84aadda933b309578b42abcbd14ba3d87578997f3518ae212869ee3089d279f3819baf7459be20e3188bed1d1393dac9c059216c6e5e89e552827526bf4edac372ce0acf5deeb0d05a51c392b065e125d65be7e345d214ca77c8c9f786d85bb1ecf38a2d232f420aa49465de0868319a6a284b6de0ec781d6d0567090983c27c465594f1041bddea896b929a935f8e722b15b34832ec81242ce95c6da7f3779ef519833c09fb251d8bbfaf1ee"
 // token_type: "Bearer"
 // __proto__: Object
+
+
+// function isPandigital(num) {
+// 	let ruleSet = [0,1,2,3,4,5,6,7,8,9];
+//     let numArr = num.toString().split('');
+//     let result = []
+// 	if (numArr.length <= 10) {
+// 		return false
+// 	} else {
+//         for (i = 0; i < numArr.length; i++) {
+//             for (j in ruleSet) {
+//                 if (numArr[i] === ruleSet[j]) {
+//                     result.push(i)
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// function isPandigital(num) {
+// 	let ruleSet = [0,1,2,3,4,5,6,7,8,9];
+//     let numArr = num.toString().split('');
+//     let result = []
+//     for (i = 0; i < numArr.length; i++) {
+//             for (j in ruleSet) {
+//                 if (numArr[i] === ruleSet[j]) {
+//                     result.push(i)
+//                 }
+//             }
+//         }
+//     }
+
+
+
+
+
+       // let counter = 0;
+            // numArr.indexOf(ruleSet[i]) + counter;
+            // if (counter === 10) { 
+            //     return true
+            // } else {
+            //     return false
+            // }
+
