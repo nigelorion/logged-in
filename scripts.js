@@ -41,21 +41,21 @@ function requestToken() {
 }
 
 
-// function merchantCall() {
-//     return fetch("https://api.carthook.com/v1/merchant", {
-//         method: 'get',
-//         dataType: 'json',
-//         headers: {
-//                 "Content-Type": "application/json",
-//                 "Authorization": "Bearer " + accessToken
-//             }
-//     })
-//     .then(res => res.json())
-//     .then(resj => {
-//         console.log(resj)})
-//         .catch(err => {
-//         console.log(err)})
-// }
+function merchantCall() {
+    return fetch("https://api.carthook.com/v1/merchant", {
+        method: 'get',
+        dataType: 'json',
+        headers: {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + accessToken
+            }
+    })
+    .then(res => res.json())
+    .then(resj => {
+        console.log(resj)})
+        .catch(err => {
+        console.log(err)})
+}
 
 
 // {token_type: "Bearer", expires_in: 631152000, access_token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjcwN2…H7t8AAjB62i0hezk-dpQxZ9NHywX3LAYft89pk2h7rGdZDHr8", refresh_token: "def50200e83611a651e5b69d1e30005545f4267b3d8ec44ad9…32ec81242ce95c6da7f3779ef519833c09fb251d8bbfaf1ee"}
